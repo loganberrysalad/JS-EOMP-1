@@ -25,7 +25,8 @@ let totalInput = document.getElementById('total');
 
 
 // event listener to the form
-let addProductForm = document.getElementById('addProductForm');
+const addProductForm = document.getElementById('addProductForm');
+
 addProductForm.addEventListener('submit', function(event) {
     event.preventDefault(); // Prevent form submission
     let nameInput = document.getElementById('name');
